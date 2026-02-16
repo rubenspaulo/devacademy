@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <title>Dev Academy</title>
+  </head>
+  <body>
+    <header class="main-nav">
+      <div class="nav-content">
+        <h1>DevAcademy</h1>
+
+        <button
+          class="hamburger"
+          id="btn-menu"
+          aria-expanded="false"
+          aria-label="Abrir Menu"
+        >
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+
+        <nav class="nav-links" id="menu-links">
+          <ul>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Mentorias</a></li>
+            <li><a href="#">Comunidade</a></li>
+            <li><a href="#" class="btn-contato">Entrar</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <section class="header-filter">
+        <div class="filter">
+          <input
+            type="text"
+            id="filter-input"
+            placeholder="Buscar tecnologia (ex: TypeScript)..."
+            aria-label="Filtrar cursos"
+          />
+        </div>
+      </section>
+      <section id="courses-grid" class="courses-grid">
+        <p class="loading">Carregando...</p>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="brand">
+          <h2>Dev<span>Academy</span></h2>
+          <p>
+            Acelerando carreiras tech com foco no que o mercado realmente pede.
+          </p>
+        </div>
+        <div class="explore">
+          <p><span>EXPLORAR</span></p>
+          <ul>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Mentorias</a></li>
+            <li><a href="#">Comunidade</a></li>
+          </ul>
+        </div>
+        <div class="newsletter">
+          <p><span>NEWSLETTER</span></p>
+          <div class="news-form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+            /><button class="mail-button">OK</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./src/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+[
+  { "id": 1, "titulo": "TypeScript Fundamentals", "nivel": "Iniciante", "trilha": "Linguagens", "descricao": "Domine a tipagem estática." },
+  { "id": 2, "titulo": "PostgreSQL Essencial", "nivel": "Iniciante", "trilha": "Banco de Dados", "descricao": "Modelagem, SQL moderno e boas práticas de índices." },
+  { "id": 3, "titulo": "CSS Moderno", "nivel": "Intermediário", "trilha": "Frontend", "descricao": "Layouts com Grid e Flexbox." },
+  { "id": 4, "titulo": "React para Produção", "nivel": "Intermediário", "trilha": "Frontend", "descricao": "Componentes performáticos, hooks e padrões de projeto." },
+  { "id": 5, "titulo": "Testes Automatizados com Jest", "nivel": "Intermediário", "trilha": "Qualidade", "descricao": "Cobertura de código, mocks e testes de integração." },
+  { "id": 6, "titulo": "Arquitetura Clean", "nivel": "Avançado", "trilha": "Arquitetura", "descricao": "Sistemas escaláveis e robustos." },
+  { "id": 7, "titulo": "Node.js Enterprise", "nivel": "Avançado", "trilha": "Backend", "descricao": "APIs escaláveis com padrões de mercado." },
+  { "id": 8, "titulo": "DevOps com Docker e CI/CD", "nivel": "Avançado", "trilha": "DevOps", "descricao": "Containerização, pipelines e entrega contínua na prática." },
+  { "id": 9, "titulo": "APIs REST com Fastify", "nivel": "Intermediário", "trilha": "Backend", "descricao": "Criação de APIs ultrarrápidas com validação, plugins, arquitetura modular e boas práticas."}
+]
