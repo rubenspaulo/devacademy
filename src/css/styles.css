@@ -47,7 +47,9 @@ input:focus {
 
 button {
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 /* NAVBAR */
@@ -144,7 +146,9 @@ button {
   border-radius: 0.5rem;
   background-color: var(--secondary);
   color: var(--text);
-  transition: border-color 0.3s ease, transform 0.2s ease;
+  transition:
+    border-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 /* GRID */
@@ -167,7 +171,10 @@ button {
   border-radius: 0.5rem;
   background-color: var(--secondary);
   color: var(--text);
-  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.2s ease;
 }
 
 .loading {
@@ -217,7 +224,11 @@ footer {
   margin-top: 2rem;
   background-color: var(--secondary);
   color: var(--text);
-  border-top: 2px solid var(--border);
+}
+
+.footer-main {
+  border-block: 2px solid var(--border);
+  margin-bottom: 2rem;
 }
 
 .footer-container {
@@ -225,10 +236,9 @@ footer {
   flex-direction: column;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto;
   padding: 2rem;
   gap: 1.5rem;
-  border-bottom: 2px solid var(--border);
 }
 
 footer span {
