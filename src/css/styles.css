@@ -235,15 +235,19 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1200px;
+  max-width: calc(1200px + 4rem);
   margin: 0 auto;
   padding: 2rem;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 footer span {
   color: var(--accent);
   font-weight: bold;
+}
+
+.brand, .explore, .newsletter {
+  width: 100%;
 }
 
 .explore li {
@@ -260,6 +264,10 @@ footer span {
   margin-bottom: 1rem;
 }
 
+.news-form {
+  display: flex;
+}
+
 .newsletter input,
 .newsletter button {
   line-height: 1.5rem;
@@ -267,7 +275,7 @@ footer span {
 }
 
 .newsletter input {
-  width: 80%;
+  flex: 1;
   padding: 0.5rem;
   border: 2px solid var(--border);
   background-color: var(--primary);
@@ -320,13 +328,14 @@ footer span {
     color: var(--accent);
     transition: color 0.3s ease;
   }
-
   .footer-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .news-form {
     display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1328px) {
+  .footer-container {
+    padding: 2rem 0;
   }
 }
